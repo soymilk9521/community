@@ -9,26 +9,26 @@ package com.airskr.community.dto;
  * @since 2019/11/03 20:50
  */
 public class GithubClientDto {
-    public String client_id;
-    public String client_secret;
+    public String clientId;
+    public String clientSecret;
     public String code;
     public String state;
     public String redirectUri;
 
-    public String getClient_id() {
-        return client_id;
+    public String getClientId() {
+        return clientId;
     }
 
-    public void setClient_id(String client_id) {
-        this.client_id = client_id;
+    public void setClientId(String clientId) {
+        this.clientId = clientId;
     }
 
-    public String getClient_secret() {
-        return client_secret;
+    public String getClientSecret() {
+        return clientSecret;
     }
 
-    public void setClient_secret(String client_secret) {
-        this.client_secret = client_secret;
+    public void setClientSecret(String clientSecret) {
+        this.clientSecret = clientSecret;
     }
 
     public String getCode() {
@@ -58,8 +58,8 @@ public class GithubClientDto {
     @Override
     public String toString() {
         return "AccessTokenDto{" +
-                "clientId='" + client_id + '\'' +
-                ", clientSecret='" + client_secret + '\'' +
+                "clientId='" + clientId + '\'' +
+                ", clientSecret='" + clientSecret + '\'' +
                 ", code='" + code + '\'' +
                 ", state='" + state + '\'' +
                 ", redirectUri='" + redirectUri + '\'' +

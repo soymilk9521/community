@@ -9,24 +9,24 @@ package com.airskr.community.dto;
  * @since 2019/11/04 8:53
  */
 public class AccessTokenDto {
-    public String access_token;
-    public String token_type;
+    public String accessToken;
+    public String tokenType;
     public String scope;
 
-    public String getAccess_token() {
-        return access_token;
+    public String getAccessToken() {
+        return accessToken;
     }
 
-    public void setAccess_token(String access_token) {
-        this.access_token = access_token;
+    public void setAccessToken(String accessToken) {
+        this.accessToken = accessToken;
     }
 
-    public String getToken_type() {
-        return token_type;
+    public String getTokenType() {
+        return tokenType;
     }
 
-    public void setToken_type(String token_type) {
-        this.token_type = token_type;
+    public void setTokenType(String tokenType) {
+        this.tokenType = tokenType;
     }
 
     public String getScope() {
@@ -40,8 +40,8 @@ public class AccessTokenDto {
     @Override
     public String toString() {
         return "AccessTokenDto{" +
-                "access_token='" + access_token + '\'' +
-                ", token_type='" + token_type + '\'' +
+                "accessToken='" + accessToken + '\'' +
+                ", tokenType='" + tokenType + '\'' +
                 ", scope='" + scope + '\'' +
                 '}';
     }
